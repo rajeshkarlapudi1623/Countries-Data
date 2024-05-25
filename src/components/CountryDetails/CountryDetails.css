@@ -1,0 +1,110 @@
+.back-button {
+    width: 30%;
+    min-width: 100px;
+    border-radius: 3px;
+    padding: .4rem 1rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.back-button-dark {
+    background-color: hsl(209, 23%, 22%);
+}
+
+.back-button-light {
+    background: hsl(0, 0%, 98%);
+    box-shadow: 0px 0px 2px grey;
+
+
+}
+
+.back-button p {
+    margin: 0;
+}
+
+.border-countries-div {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+
+.countrydetails-text-2 {
+    margin-top: 2.5rem;
+}
+
+.countrydetails-div {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.countrydetails-details-div {
+    align-self: center;
+}
+
+
+.image-div {
+    width: 100%;
+}
+
+
+.countrydetails-div-dark,
+.back-button-dark {
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.countrydetails-div-light,
+.back-button-light {
+    color: hsl(200, 15%, 8%);
+}
+
+.countrydetails-p {
+    font-weight: 600;
+    font-size: .8rem;
+    margin-bottom: 0;
+}
+
+.countrydetails-span {
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.iconAwesome {
+    margin-right: .7rem;
+}
+
+@media (min-width:450px) {
+    .image-div {
+        width: 50%;
+
+    }
+
+    .countrydetails-text-div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .countrydetails-details-div {
+        align-self: center;
+        width: 40%;
+    }
+
+    .back-button {
+        width: 10%;
+    }
+}
+
+@media (min-width:450px) and (max-width:800px) {
+    .image-div {
+        align-self: center;
+    }
+}

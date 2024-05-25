@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Nunito Sans',
+    sans-serif;
+}
+
+/* .body-dark {
+  background-color: hsl(207, 26%, 17%);
+}
+
+.body-light {
+  background-color: hsl(0, 0%, 98%);
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
